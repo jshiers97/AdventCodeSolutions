@@ -4,6 +4,9 @@ import java.io.*;
 import java.util.*;
 
 public class Day4_2 {
+    //You process the original and all copies of Card X before you move on to X+1.
+    //I might rethink how I do the final block of code at the bottom (beneath the catch)
+    //there might be a way to optimize it
     public static void solveDay4_2(){
 
 
