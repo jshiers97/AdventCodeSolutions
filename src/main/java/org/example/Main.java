@@ -13,6 +13,8 @@ import static org.example.Day2.solveDay2;
 import static org.example.Day2_2.solveDay2_2;
 import static org.example.Day3.solveDay3;
 import static org.example.Day3_2.solveDay3_2;
+import static org.example.Day4.solveDay4;
+import static org.example.Day4_2.solveDay4_2;
 
 // Press Shift twice to open the Search Everywhere dialog and type `show whitespaces`,
 // then press Enter. You can now see whitespace characters in your code.
@@ -23,5 +25,7 @@ public class Main {
         solveDay2_2();
         solveDay3();
         solveDay3_2();
+        solveDay4();
+        solveDay4_2();
     }
 }
