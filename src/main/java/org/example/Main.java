@@ -9,6 +9,10 @@ import java.util.HashMap;
 import java.util.Map;
 
 import static org.example.Day1.solveDay1;
+import static org.example.Day15.solveDay15;
+import static org.example.Day15_2.solveDay15_2;
+import static org.example.Day16.solveDay16;
+import static org.example.Day16_2.solveDay16_2;
 import static org.example.Day2.solveDay2;
 import static org.example.Day2_2.solveDay2_2;
 import static org.example.Day3.solveDay3;
@@ -20,12 +24,21 @@ import static org.example.Day4_2.solveDay4_2;
 // then press Enter. You can now see whitespace characters in your code.
 public class Main {
     public static void main(String[] args) throws Exception {
-        solveDay1();
-        solveDay2();
-        solveDay2_2();
-        solveDay3();
-        solveDay3_2();
-        solveDay4();
-        solveDay4_2();
+//        solveDay1();
+//        solveDay2();
+//        solveDay2_2();
+//        solveDay3();
+//        solveDay3_2();
+//        solveDay4();
+//        solveDay4_2();
+//        solveDay15();
+//        solveDay15_2();
+//        solveDay16();
+////        solveDay16_2();
+//        Day17 res= new Day17();
+//        res.solveDay17();
+        Day17_2 res2=new Day17_2();
+        res2.solveDay17_2();
+
     }
 }
