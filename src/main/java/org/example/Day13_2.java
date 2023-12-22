@@ -43,7 +43,7 @@ public class Day13_2 {
             throw new RuntimeException(e);
         }
 
-        System.out.println(total);
+        System.out.println("Day 13 part 2 solution is " + total);
         return total;
     }
     public static int analyzeHorizontal(List<List<Character>> grid, int m, int n){
@@ -77,7 +77,7 @@ public class Day13_2 {
                 }
             }
             if(found && diff==1){
-                System.out.println("new horiz startMir is " + startMirror);
+
                 return startMirror+1;
             }
             else{
@@ -119,7 +119,7 @@ public class Day13_2 {
                 }
             }
             if(found && diff==1){
-                System.out.println("new vert startMir is " + startMirror);
+
                 return startMirror+1;
             }
             else{
